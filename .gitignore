@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Modelos YOLO (grandes)
+*.pt
+*.onnx
+
+# Videos e imagens grandes
+*.mp4
+*.avi
+*.mov
+*.mkv
+video_youtube*
+video_teste*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.venv
